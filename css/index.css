@@ -2,7 +2,7 @@
 .header{
   width: 100%;
   height: 62px;
-  background-color: pink;
+  background-color: #fff;
   display: table;
   position: fixed;
   z-index: 9;
@@ -11,14 +11,17 @@
   padding-left: 20px;
   padding-right: 20px;
   width: 100%;
-  height: 40px;
   display: table-cell;
   vertical-align: middle;
+}
+.header .header-contain .header-l{
+  float: left;
 }
 .header .header-contain .header-l .header-l-font{
   display: inline-block;
   vertical-align: top;
   height: 31px;
+  margin-top: 3px;
 }
 .header .header-contain .header-l .header-l-font .uns{
   margin-left: 12px;
@@ -26,14 +29,14 @@
 }
 .header .header-contain .header-l .header-l-font span:nth-child(2){
   position: absolute;
-  top: 30px;
+  top: 28px;
   left: 64px;
   font-size: 13px;
 }
 .header .header-contain .header-l .search{
   display: inline-block;
   margin-left: 60px;
-  width: 780px;
+  width: 707px;
   height: 40px;
     border-radius: 24px;
     background-color: #eee;
@@ -69,18 +72,91 @@
     
 }
 .header .header-contain .header-l .logo {
-  margin-top: 5px;
+  margin-top: 7px;
   height: 32px;
   width: 32px;
   float: left;
+}
+.header .header-r{
+  float: left;
+  margin-top: 10px;
+}
+.header .header-r ul{
+  display: inline-block;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+.header .header-r ul li{
+  display: inline-block;
+  font-size: 14px;
+}
+.header .header-r ul li .en{
+  padding: 20px 12px;
+  color: #767676;
+}
+.header .header-r ul li ._3DJPT{
+  margin-left: 5px;
+ width: 18px;
+ height: 18px;
+}
+.header .header-r ul li:nth-child(3){
+  vertical-align: middle;
+  line-height: 1;
+}
+.but{
+  margin-left: 10px;
+  margin-top: 7px;
+  margin-right: 48px;
+  display: inline-block;
+}
+.but button{
+  color: #767676;
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+    height: 32px;
+    padding: 0 11px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.line-s{
+  height: 32px;
+  width: 0.5px;
+  background-color: #d1d1d1;
+  position: absolute;
+  top: 15px;
+  right: 190px;
+}
+.login{
+  position: absolute;
+  right: 32px;
+  top: 18px;
+}
+.login .log{
+  position: absolute;
+  top: 0px;
+  right:90px;
+  color: #767676;
+}
+.login .join{
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #3cb46e;
+  height: 35px;
+  width: 80px;border-radius: 4px;
+}
+.login .free{
+  color: #fff;
+line-height: 35px;
+  margin-left: 10px;
 }
 /* 第二块导航栏 */
 .nav{
   width: 100%;
   height: 56px;
-  background-color: skyblue;
+  background-color: #fff;
   position: fixed;
-  top: 62px;
+  top: 61.9px;
   z-index: 9;
 }
 .nav .nav-left{
@@ -129,4 +205,34 @@ float: left;
 .Bigimg img{
   width: 100%;
   height: 593px;
+}
+.Bigimg .center{
+  position: absolute;
+  left: 335px;
+  top: 150px;
+  width: 66.66667%;
+  margin-right: auto;
+  width: 684px;
+  height: 262px;
+  background-color: pink;
+}
+.Bigimg .center .unsplash{
+  font-size: 46px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #fff;
+}
+.Bigimg .center h1{
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 10px;
+  color: #fff;
+}
+.Bigimg .center p{
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 0;
+    margin-bottom: 24px;
 }
